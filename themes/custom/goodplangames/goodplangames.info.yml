@@ -1,0 +1,8 @@
+name: Good Plan Games
+core: 8.x
+type: theme
+description: 'Theme for goodplangames.com website.'
+base theme: classy
+
+libraries:
+  - goodplangames/global-styles
