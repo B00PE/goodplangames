@@ -1,4 +1,4 @@
-global-styling:
-  version: 0.x
+styles:
   css:
-    base: css/base.css
+    theme:
+      css/styles.css: {}

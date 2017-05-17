@@ -1,13 +1,19 @@
 name: Good Plan Games
+core: 8.x
 type: theme
 description: 'Theme for goodplangames.com website.'
-core: 8.x
-libraries:
-  - goodplangames/global-styling
 base theme: classy
+
 regions:
-  header: Header
-  content: Content
-  sidebar_first: 'Sidebar first'
-  footer: Footer
-version: '0.1'
+  header: 'Top Bar'
+  navigation: 'Navigation'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - goodplangames/styles
