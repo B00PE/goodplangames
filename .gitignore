@@ -44,3 +44,6 @@ core/phpunit.xml
 
 #PhpStorm
 .idea
+
+#Node modules
+node_modules
